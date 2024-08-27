@@ -1,6 +1,7 @@
 :root {
     --text-color: #667085;
-    --main-color: #8E2424;
+    --text-color2:#101828;
+    --main-color: #8E2424;   
 }
 
 * {
@@ -23,11 +24,13 @@ main {
 
 img {
     width: 148px;
-    margin: -1em;
+    margin: -1rem;
 }
 
+/* Navbar*/
+
 .navbar {
-    margin-top: 2em;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -57,7 +60,7 @@ img {
     background-color: var(--main-color);
     color: white;
     padding: 10px 18px 10px 18px;
-    margin-top: 1em;
+    margin-top: -1rem;
     border: 1px solid  var(--main-color);
     border-radius: 8px;
 }
@@ -65,7 +68,31 @@ img {
 .entrar {
     width: 83px;
     padding: 10px 18px 10px 18px;
-    margin-top:-1em;
+    margin-top:-1rem;
     position: relative;
     margin-right: 12px;
+}
+
+/* heading*/
+
+.heading {
+    height: 407px;
+    text-align: center;
+    margin: 6rem 0;
+}
+
+.bold-red-text {
+  color: var(--main-color);
+  font-weight: 600;  
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 16px;
+    color: var(--text-color2) 
+}
+
+.text-content {
+    margin-top: 20px;
+    text-align: center;
 }
