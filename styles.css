@@ -1,3 +1,8 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +12,7 @@
 html {
     font-family: Inter, sans-serif;
     font-size: 16px;
+    color: var(--text-color)
 }
 
 
@@ -48,11 +54,11 @@ img {
 
 .cadastrar {
     width: 112px;
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: white;
     padding: 10px 18px 10px 18px;
     margin-top: 1em;
-    border: 1px solid  #8E2424;
+    border: 1px solid  var(--main-color);
     border-radius: 8px;
 }
 
