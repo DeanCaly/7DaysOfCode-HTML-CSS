@@ -6,7 +6,7 @@
 :root {
     --text-color: #667085;
     --text-color2:#101828;
-    --main-color: #8E2424;   
+    --main-color: #8E2424;  
 }
 
 * {
@@ -25,6 +25,7 @@ html {
 main {
     width:85vw;
     margin: auto; 
+    max-width: 1440px;
 }
 
 #logo {
@@ -135,4 +136,37 @@ h1 {
 .metrics div p:nth-of-type(2n) {
     margin-top: 18px;
     font-size: 18px;
+}
+
+
+/*=-=-= Talents =-=-=*/
+
+.info {
+   text-align: center;
+   padding-top: 5rem;
+}
+
+.info p:first-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.background-subtitle {
+    background-color: #8E24240D;
+    padding: 6px 12px;
+    border: 1px transparent;   
+}
+
+h2 {
+    font-weight:600;
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    color: var(--text-color2);
+}
+
+.meeting-img {
+    width: 100%;
+    padding: 3rem 0;
 }
