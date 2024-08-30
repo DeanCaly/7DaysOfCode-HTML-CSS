@@ -94,9 +94,10 @@ h1 {
     color: var(--text-color2);
 }
 
-.heading .text-content {
-    margin-top: 20px;
+.text-content {
+    margin-top: 1.5rem;
     text-align: center;
+    font-size: 1.25rem;
 }
 
 /*Modificadores de texto*/
@@ -146,27 +147,59 @@ h1 {
    padding-top: 5rem;
 }
 
-.info p:first-child {
-    font-size: 14px;
+.red-subtitle {
+    font-size: 0.87rem;
     font-weight: 500;
     color: var(--main-color);
     margin-bottom: 1rem;
+    background-color: #8E24240D;
+    padding: .3em 1em;
+    border-radius: 2rem;
 }
 
-.background-subtitle {
-    background-color: #8E24240D;
-    padding: 6px 12px;
-    border: 1px transparent;   
-}
 
 h2 {
     font-weight:600;
-    margin-bottom: 1.2rem;
-    font-size: 1.8rem;
+    margin: 1.2rem;
+    font-size: 2.2rem;
     color: var(--text-color2);
 }
 
 .meeting-img {
     width: 100%;
     padding: 3rem 0;
+}
+
+
+/*Vacancy*/
+
+.vacancy {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.job-vacancy-area {
+    padding: 2rem 0 1rem;
+}
+
+.job-vacancy-area h4 {
+    font-size: 1.25rem;
+    position: absolute;
+    margin-top: -1.3rem;
+}
+
+.job-post {
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem 0 1rem;
+    margin: 2rem 0;
+}
+
+.job-post p:first-child {
+    margin-bottom: 2rem;
+}
+
+.job-post div span {
+    padding-right: 1em;
+
 }
