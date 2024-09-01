@@ -9,6 +9,7 @@
     --details-color: #8E2424;
     --background-color-1:  #8E24240D;
     --background-color-2: #C3191908;
+    --background-color-3: #F9FAFB;
   
 }
 
@@ -64,22 +65,26 @@ main {
     text-decoration: none;
 }
 
-.cadastrar {
-    width: 112px;
-    background-color: var(--details-color);
-    color: white;
-    padding: 10px 18px 10px 18px;
-    margin-top: -1rem;
+.button_base {
     border: 1px solid  var(--details-color);
     border-radius: 8px;
+    background-color: var(--details-color);
+    color: white;
 }
 
-.entrar {
+.register {
+    padding: 10px 18px 10px 18px;
+    margin-top: -1rem;   
+    margin-left: 1rem; 
+}
+
+.login-buttom {
     width: 83px;
     padding: 10px 18px 10px 18px;
     margin-top:-1rem;
     position: relative;
     margin-right: 12px;
+    font-size: 1rem;
 }
 
 /* =-=-= heading =-=-= */
@@ -166,6 +171,7 @@ h2 {
     margin: 1.2rem;
     font-size: 2.25rem;
     color: var(--text-color2);
+    text-align: center;
 }
 
 .meeting-img {
@@ -214,9 +220,12 @@ h2 {
     margin-top: 3rem;
     padding: 0 0 96px 0 ;
 }
-.testimonials div:first-of-type {
+
+.testimonial-container {
     text-align: center;
-    padding: 2rem;
+    background-color: var(--background-color-2);
+    width: 100%;
+    padding: 4rem;
 }
 
 .testimonials p:first-child {
@@ -228,16 +237,52 @@ h2 {
     font-size: 2.25rem;
 }
 
-.testimonial-light-red-background {
-    background-color: var(--background-color-2);
-    width: 100%;
-    
+.avatar-info {
+    margin-top: 1rem;
 }
 
-.avatar-info p {
+.avatar-info p{
     padding-top: 0.7rem;
 }
 
 .avatar-info p:last-child {
     font-size: 0.87em;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: var(--background-color-3);
+}
+
+.email-registration {
+    padding: 6rem 0 6rem 0;
+}
+
+
+form {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+form input{
+    border: 1px solid #D0D5DD;
+    padding: 12px 14px 11px 16px;
+    width: 24%;
+    font-size: 1rem;
+      
+}
+
+.form_button {
+    padding: 12px 20px 12px 20px;
+    margin-left: 0.5rem; 
+    font-size: 1rem;
+}
+
+#all-rights-reserved {
+    text-align: center;
+    font-size: 1rem;
+    color: #98A2B3;
+
 }
